@@ -2,7 +2,7 @@ import random
 number=random.randint(1,100)
 count=0
 while 1:
-    guess=input("请猜一个1——100的整数:")
+    guess=input("请猜一个1——99的整数:")
     if not guess.isdigit():     # digit是数字的意思，isdigit就是判断是否是数字
         print("请仔细审题哦,输入的数必须为整数")
     else:
